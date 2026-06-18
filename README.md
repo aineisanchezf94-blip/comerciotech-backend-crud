@@ -1,7 +1,7 @@
 # comerciotech-backend-crud
 Proyecto ComercioTech para manejar de manera masiva cantidades de clientes y transacciones.
 
-#Estructura central
+# Estructura central
 
 
 ├── .env                     # Variables de entorno secretas (MONGO_URI)
