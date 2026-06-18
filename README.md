@@ -3,7 +3,7 @@ Proyecto ComercioTech para manejar de manera masiva cantidades de clientes y tra
 
 #Estructura central
 
-#
+
 ├── .env                     # Variables de entorno secretas (MONGO_URI)
 ├── .gitignore               # Configurado para ignorar node_modules y .env
 ├── README.md                # Instrucciones del proyecto para el equipo
