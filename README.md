@@ -5,7 +5,7 @@ Proyecto ComercioTech para manejar de manera masiva cantidades de clientes y tra
 
 Este proyecto consiste en una API robusta, segura y escalable para gestionar los datos de clientes, productos y pedidos de la empresa *ComercioTech*.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 * **Node.js** (Entorno de ejecución)
 * **Express** (Framework de servidor)
 * **MongoDB** (Base de datos NoSQL)
@@ -26,7 +26,7 @@ Este proyecto consiste en una API robusta, segura y escalable para gestionar los
     └── routes/              # Definición de rutas HTTP
 ```
 
-## 🚀 Instalación y Configuración del Equipo
+## Instalación y Configuración del Equipo
 
 Cada integrante del equipo debe seguir estos pasos en su computadora local:
 
