@@ -1,21 +1,25 @@
 const express = require('express');
 const dotenv = require('dotenv');
+const connectDB = require('./config/db');
 
-// Configuración de variables de entorno
+// Configuración de entorno
 dotenv.config();
 
-const app = express();
-const PORT = process.env.PORT || 5000;
+// Conectar a MongoDB
+connectDB();
 
-// Middlewares
+const app = express();
+
+// Middleware para procesar JSON
 app.use(express.json());
 
-// Ruta de prueba inicial
-app.use('/api', (req, res) => {
-  res.json({ message: "Bienvenido a la API de ComercioTech" });
+// Ruta de diagnóstico inicial
+app.get('/api/health', (req, res) => {
+  res.json({ status: "ok", message: "API de ComercioTech funcionando" });
 });
 
-// Inicializar Servidor
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en el puerto ${PORT}`);
-});
+// Vinculación de Rutas Modulares (El equipo agregará las suyas aquí)
+// app.use('/api/products', require('./routes/productRoutes'));
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Servidor activo en puerto ${PORT}`));
