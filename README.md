@@ -1,6 +1,3 @@
-# comerciotech-backend-crud
-Proyecto ComercioTech para manejar de manera masiva cantidades de clientes y transacciones.
-
 # ComercioTech - Backend CRUD
 
 Este proyecto consiste en una API robusta, segura y escalable para gestionar los datos de clientes, productos y pedidos de la empresa *ComercioTech*.
@@ -11,7 +8,7 @@ Este proyecto consiste en una API robusta, segura y escalable para gestionar los
 * **MongoDB** (Base de datos NoSQL)
 * **Mongoose** (Modelado de datos)
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 ```text
 ├── .env.example             # Plantilla de variables de entorno
 ├── .gitignore               # Archivos excluidos de Git
