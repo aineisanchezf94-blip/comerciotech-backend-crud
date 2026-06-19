@@ -23,6 +23,7 @@ Este proyecto consiste en una API robusta, segura y escalable para gestionar los
         ├── controllers/     # Lógica CRUD (clientController.js, etc.)
         └── routes/          # Endpoints HTTP (clientRoutes.js, etc.)
 
+
 ```
 
 ## Instalación y Configuración del Equipo
