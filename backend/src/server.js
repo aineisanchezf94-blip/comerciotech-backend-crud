@@ -23,5 +23,5 @@ app.get('/api/health', (req, res) => {
   res.json({ status: "ok", message: "API de ComercioTech funcionando correctamente" });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Servidor de ComercioTech activo en puerto ${PORT}`));
