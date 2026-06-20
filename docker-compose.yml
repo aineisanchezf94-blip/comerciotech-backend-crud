@@ -1,0 +1,66 @@
+services:
+  # Base de datos MongoDB
+  mongo:
+    image: mongo:6.0
+    restart: unless-stopped
+    container_name: comerciotech-mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: comerciotech
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - comerciotech-network
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: comerciotech-backend
+    working_dir: /usr/src/app
+    command: npm run docker:start
+    ports:
+      - '5001:5001'
+    environment:
+      MONGO_URI: mongodb+srv://comerciotech_user:comerciotech123@cluster0.kwnz5mx.mongodb.net/comerciotech?retryWrites=true&w=majority&appName=Cluster0
+      PORT: 5001
+      NODE_ENV: development
+
+    depends_on:
+      mongo:
+        condition: service_healthy
+    volumes:
+      - ./backend:/usr/src/app
+      - /usr/src/app/node_modules
+    networks:
+      - comerciotech-network
+
+  # Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: comerciotech-frontend
+    ports:
+      - '3000:3000'
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend/src:/app/src
+    networks:
+      - comerciotech-network
+
+volumes:
+  mongo-data:
+
+networks:
+  comerciotech-network:
+    driver: bridge
+
