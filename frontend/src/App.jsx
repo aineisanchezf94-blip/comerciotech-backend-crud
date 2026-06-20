@@ -1,122 +1,94 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import React, { useState } from 'react';
+import ClienteCRUD from './components/ClienteCRUD';
+import ProductoCRUD from './components/ProductoCRUD';
+import OrderCRUD from './components/OrderCRUD';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [vistaActual, setVistaActual] = useState('dashboard');
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <div className="app-shell">
+      <aside className="sidebar">
+        <div className="sidebar-brand"> ComercioTech</div>
 
-      <div className="ticks"></div>
+        <nav className="sidebar-nav">
+          <button className={vistaActual === 'dashboard' ? 'sidebar-button active' : 'sidebar-button'} onClick={() => setVistaActual('dashboard')}>
+            📊 Dashboard
+          </button>
+          <button className={vistaActual === 'clientes' ? 'sidebar-button active' : 'sidebar-button'} onClick={() => setVistaActual('clientes')}>
+            👥 Clientes
+          </button>
+          <button className={vistaActual === 'productos' ? 'sidebar-button active' : 'sidebar-button'} onClick={() => setVistaActual('productos')}>
+            📦 Productos
+          </button>
+          <button className={vistaActual === 'ordenes' ? 'sidebar-button active' : 'sidebar-button'} onClick={() => setVistaActual('ordenes')}>
+            🧾 Órdenes
+          </button>
+        </nav>
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <div className="sidebar-footer">Versión 1.0 · CRUD completo</div>
+      </aside>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+      <div className="main-content">
+        <header className="page-header">
+          <div>
+            <h1>
+              {vistaActual === 'dashboard' && 'Panel de Control Principal'}
+              {vistaActual === 'clientes' && 'Gestión de Clientes'}
+              {vistaActual === 'productos' && 'Gestión de Productos'}
+              {vistaActual === 'ordenes' && 'Gestión de Órdenes'}
+            </h1>
+            <p>
+              {vistaActual === 'dashboard' && 'Revisa tus recursos y navega entre clientes, productos y pedidos.'}
+              {vistaActual === 'clientes' && 'Gestiona tus clientes: crea, edita y elimina registros fácilmente.'}
+              {vistaActual === 'productos' && 'Administra productos con stock y precios actualizados.'}
+              {vistaActual === 'ordenes' && 'Crea y administra órdenes con clientes, productos y estado de envío.'}
+            </p>
+          </div>
+          <div className="status-chip">🟢 Conectado a MongoDB</div>
+        </header>
+
+        <main className="page-body">
+          {vistaActual === 'dashboard' && (
+            <section className="dashboard-grid">
+              <article className="dashboard-card">
+                <h3>Clientes</h3>
+                <p>Registra tus clientes y mantenlos siempre disponibles para pedidos.</p>
+              </article>
+              <article className="dashboard-card">
+                <h3>Productos</h3>
+                <p>Administra el catálogo con precios y stock para tu tienda.</p>
+              </article>
+              <article className="dashboard-card">
+                <h3>Órdenes</h3>
+                <p>Controla el flujo de ventas, consulta estados y elimina pedidos cuando sea necesario.</p>
+              </article>
+            </section>
+          )}
+
+          {vistaActual === 'clientes' && (
+            <section className="clients-panel">
+              <ClienteCRUD />
+            </section>
+          )}
+
+          {vistaActual === 'productos' && (
+            <section className="clients-panel">
+              <ProductoCRUD />
+            </section>
+          )}
+
+          {vistaActual === 'ordenes' && (
+            <section className="clients-panel">
+              <OrderCRUD />
+            </section>
+          )}
+        </main>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
+

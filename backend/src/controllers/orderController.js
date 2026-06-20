@@ -37,14 +37,10 @@ exports.getOrderById = async (req, res) => {
   }
 };
 
-// ACTUALIZAR ESTADO DEL PEDIDO (ej. cambiar de Pendiente a Enviado)
-exports.updateOrderStatus = async (req, res) => {
+// ACTUALIZAR PEDIDO
+exports.updateOrder = async (req, res) => {
   try {
-    const updatedOrder = await Order.findByIdAndUpdate(
-      req.params.id, 
-      { status: req.body.status }, 
-      { new: true }
-    );
+    const updatedOrder = await Order.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true });
     if (!updatedOrder) return res.status(404).json({ message: 'Pedido no encontrado' });
     res.status(200).json(updatedOrder);
   } catch (error) {
