@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import api from '../api/axios';
 
+const formatCLP = (value) => {
+  return new Intl.NumberFormat('es-CL', {
+    style: 'currency',
+    currency: 'CLP',
+    minimumFractionDigits: 0
+  }).format(value);
+};
+
 const OrderCRUD = () => {
   const [orders, setOrders] = useState([]);
   const [clients, setClients] = useState([]);
@@ -206,7 +214,7 @@ const OrderCRUD = () => {
           </select>
         </label>
 
-        <div className="order-total">Total calculado: ${computeTotal().toFixed(2)}</div>
+        <div className="order-total">Total calculado: {formatCLP(computeTotal())}</div>
 
         <div className="form-actions">
           {editId && (
@@ -255,7 +263,7 @@ const OrderCRUD = () => {
                     const product = products.find((prod) => prod._id === (item.product?._id || item.product));
                     return `${product?.name || 'Producto'} x${item.quantity}`;
                   }).join(', ')}</td>
-                  <td>${order.totalAmount.toFixed(2)}</td>
+                  <td>{formatCLP(order.totalAmount)}</td>
                   <td>{order.status}</td>
                   <td className="actions-cell">
                     <button className="flat-button" type="button" onClick={() => startEdit(order)}>

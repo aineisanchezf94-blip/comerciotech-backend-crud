@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import api from '../api/axios';
 
+const formatCLP = (value) => {
+  return new Intl.NumberFormat('es-CL', {
+    style: 'currency',
+    currency: 'CLP',
+    minimumFractionDigits: 0
+  }).format(value);
+};
+
 const ProductoCRUD = () => {
   const [products, setProducts] = useState([]);
   const [formData, setFormData] = useState({ name: '', description: '', price: '', stock: '' });
@@ -116,7 +124,7 @@ const ProductoCRUD = () => {
         </label>
         <label>
           Precio
-          <input name="price" value={formData.price} onChange={handleChange} required type="number" step="0.01" placeholder="Ej. 79.90" />
+          <input name="price" value={formData.price} onChange={handleChange} required type="number" step="1" placeholder="Ej. 15000" />
         </label>
         <label>
           Stock
@@ -167,7 +175,7 @@ const ProductoCRUD = () => {
                 <tr key={product._id}>
                   <td>{product.name}</td>
                   <td>{product.description || '—'}</td>
-                  <td>${product.price.toFixed(2)}</td>
+                  <td>{formatCLP(product.price)}</td>
                   <td>{product.stock}</td>
                   <td className="actions-cell">
                     <button className="flat-button" type="button" onClick={() => startEdit(product)}>

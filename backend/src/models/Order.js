@@ -19,7 +19,8 @@ const orderSchema = new mongoose.Schema({
   }],
   totalAmount: { 
     type: Number, 
-    required: true 
+    required: true,
+    set: v => Math.round(v)
   },
   status: { 
     type: String, 
