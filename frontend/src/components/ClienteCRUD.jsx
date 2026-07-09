@@ -107,11 +107,11 @@ const ClienteCRUD = () => {
       <form className="client-form" onSubmit={handleSubmit}>
         <label>
           Nombre completo
-          <input name="name" value={formData.name} onChange={handleChange} required placeholder="Ej. Diego Pérez" />
+          <input name="name" value={formData.name} onChange={handleChange} required placeholder="Ej. Fabiola Rojas" />
         </label>
         <label>
           Correo electrónico
-          <input type="email" name="email" value={formData.email} onChange={handleChange} required placeholder="Ej. diego@ejemplo.com" />
+          <input type="email" name="email" value={formData.email} onChange={handleChange} required placeholder="Ej. f.rojas@gmail.com" />
         </label>
         <label>
           Teléfono

@@ -1,822 +1,922 @@
 [
   {
     "_id": "6a3764d0ce81468a8f33296d",
-    "name": "Auriculares Bluetooth",
-    "description": "Negro con cancelación",
-    "price": 79.9,
+    "name": "Auriculares Bluetooth Pro",
+    "description": "Auriculares inalámbricos con cancelación de ruido activa y estuche recargable.",
+    "price": 79000,
     "stock": 50,
     "__v": 0,
     "createdAt": "2026-06-21T04:13:04.987Z",
-    "updatedAt": "2026-06-21T04:13:04.987Z"
+    "updatedAt": "2026-07-09T15:19:36.956Z"
   },
   {
     "_id": "6a3764d0ce81468a8f33296e",
-    "name": "Cargador USB-C",
-    "description": "Rápido 30W",
-    "price": 19.5,
+    "name": "Cargador USB-C Rápido",
+    "description": "Cargador de pared de carga rápida 30W USB-C PD.",
+    "price": 19000,
     "stock": 200,
     "__v": 0,
     "createdAt": "2026-06-21T04:13:04.987Z",
-    "updatedAt": "2026-06-21T04:13:04.987Z"
+    "updatedAt": "2026-07-09T15:19:37.081Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3edb",
     "id": 1,
-    "name": "Chocolate Fudge Brownie Mix",
-    "description": "Just add water for delicious brownies.",
-    "price": 2.99,
-    "stock": 43
+    "name": "Mouse Gamer Inalámbrico RGB",
+    "description": "Mouse ergonómico de alta precisión con sensor de 16000 DPI y luces RGB.",
+    "price": 29000,
+    "stock": 43,
+    "updatedAt": "2026-06-23T21:27:33.255Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3edc",
     "id": 2,
-    "name": "Thai Coconut Curry Sauce",
-    "description": "A rich coconut curry sauce perfect for simmering vegetables or meats.",
-    "price": 3.99,
-    "stock": 58
+    "name": "Teclado Mecánico Hot-swappable",
+    "description": "Teclado mecánico compacto con switches mecánicos táctiles y retroiluminación.",
+    "price": 59000,
+    "stock": 58,
+    "updatedAt": "2026-06-23T21:27:33.385Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3edd",
     "id": 3,
-    "name": "Sliced Olives",
-    "description": "Pitted black olives, perfect for salads and pizzas.",
-    "price": 1.99,
-    "stock": 51
+    "name": "Hub USB-C 8 en 1",
+    "description": "Adaptador multipuerto con HDMI 4K, lector de tarjetas SD y puertos USB 3.0.",
+    "price": 24000,
+    "stock": 51,
+    "updatedAt": "2026-06-23T21:27:33.517Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ede",
     "id": 4,
-    "name": "Coconut Milk Ice Cream",
-    "description": "Dairy-free ice cream made with coconut milk, creamy and delicious.",
-    "price": 6.99,
-    "stock": 7
+    "name": "Base de Carga Inalámbrica 3 en 1",
+    "description": "Estación de carga inalámbrica rápida para celular, smartwatch y audífonos.",
+    "price": 35000,
+    "stock": 7,
+    "updatedAt": "2026-06-23T21:27:33.649Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3edf",
     "id": 5,
-    "name": "Green Smoothie Mix",
-    "description": "A convenient powder mix combining greens and fruits for smoothies.",
-    "price": 5.99,
-    "stock": 38
+    "name": "Smartwatch Deportivo Pro",
+    "description": "Reloj inteligente con GPS, sensor de ritmo cardíaco y resistencia al agua IP68.",
+    "price": 89000,
+    "stock": 38,
+    "updatedAt": "2026-06-23T21:27:33.781Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee0",
     "id": 6,
-    "name": "Organic Black Bean Burger",
-    "description": "Delicious plant-based burger made with organic black beans and spices.",
-    "price": 4.49,
-    "stock": 19
+    "name": "Memoria RAM DDR4 16GB 3200MHz",
+    "description": "Módulo de memoria RAM de alto rendimiento con disipador térmico.",
+    "price": 42000,
+    "stock": 19,
+    "updatedAt": "2026-06-23T21:27:33.913Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee1",
     "id": 7,
-    "name": "Chicken Sausage",
-    "description": "Flavorful chicken sausage, low in fat and fully cooked.",
-    "price": 6.99,
-    "stock": 32
+    "name": "Disco Duro Externo 2TB",
+    "description": "Unidad de almacenamiento externo portátil con conexión USB 3.0 de alta velocidad.",
+    "price": 69000,
+    "stock": 32,
+    "updatedAt": "2026-06-23T21:27:34.044Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee2",
     "id": 8,
-    "name": "Frozen Hash Browns",
-    "description": "Shredded potatoes, perfect for breakfasts.",
-    "price": 2.99,
-    "stock": 68
+    "name": "Tarjeta MicroSD XC 256GB",
+    "description": "Memoria de alta velocidad ideal para consolas portátiles y grabación de video 4K.",
+    "price": 28000,
+    "stock": 68,
+    "updatedAt": "2026-06-23T21:27:34.176Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee3",
     "id": 9,
-    "name": "Trackpad for Laptop",
-    "description": "Wireless trackpad for enhanced laptop navigation.",
-    "price": 49.99,
-    "stock": 72
+    "name": "Trackpad inalámbrico para Laptop",
+    "description": "Trackpad inalámbrico para una mejor navegación en laptop.",
+    "price": 45000,
+    "stock": 72,
+    "updatedAt": "2026-06-23T21:27:34.307Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee4",
     "id": 10,
-    "name": "Whole Grain Hamburger Buns",
-    "description": "Soft hamburger buns made with whole grains.",
-    "price": 2.69,
-    "stock": 87
+    "name": "Soporte de Notebook Ajustable",
+    "description": "Soporte ergonómico de aluminio para laptop con altura regulable.",
+    "price": 18000,
+    "stock": 87,
+    "updatedAt": "2026-06-23T21:27:34.439Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee5",
     "id": 11,
-    "name": "Digital Wireless Camera",
-    "description": "Secure digital wireless security camera system.",
-    "price": 199.99,
-    "stock": 63
+    "name": "Cámara de Seguridad Digital Inalámbrica",
+    "description": "Sistema de cámara de seguridad inalámbrica digital segura.",
+    "price": 180000,
+    "stock": 63,
+    "updatedAt": "2026-06-23T21:27:34.570Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee6",
     "id": 12,
-    "name": "Peach & Mango Salsa",
-    "description": "A zesty salsa made with peaches and mangos, great for chips.",
-    "price": 4.49,
-    "stock": 19
+    "name": "Cargador de Pared GaN 65W",
+    "description": "Cargador ultra compacto con doble puerto USB-C y USB-A de carga rápida.",
+    "price": 29000,
+    "stock": 19,
+    "updatedAt": "2026-06-23T21:27:34.700Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee7",
     "id": 13,
-    "name": "Caribbean Jerk Marinade",
-    "description": "A spicy marinade perfect for chicken and fish.",
-    "price": 3.79,
-    "stock": 30
+    "name": "Powerbank 20000mAh con QC 3.0",
+    "description": "Batería externa portátil de alta capacidad con carga rápida USB-C.",
+    "price": 32000,
+    "stock": 30,
+    "updatedAt": "2026-06-23T21:27:34.831Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee8",
     "id": 14,
-    "name": "Greek Feta Cheese",
-    "description": "Creamy and crumbly cheese for salads and dishes.",
-    "price": 4.99,
-    "stock": 91
+    "name": "Cable Thunderbolt 4 USB-C",
+    "description": "Cable de alta velocidad con soporte para transferencia de 40Gbps y video 8K.",
+    "price": 19000,
+    "stock": 91,
+    "updatedAt": "2026-06-23T21:27:34.961Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ee9",
     "id": 15,
-    "name": "Set of Gardening Gloves with Claws",
-    "description": "Multi-functional gloves for planting and digging without tools.",
-    "price": 15.99,
-    "stock": 66
+    "name": "Aro de Luz LED 10 pulgadas",
+    "description": "Aro de luz regulable con trípode y soporte para celular, ideal para streaming.",
+    "price": 15000,
+    "stock": 66,
+    "updatedAt": "2026-06-23T21:27:35.093Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3eea",
     "id": 16,
-    "name": "Set of Gardening Gloves with Claws",
-    "description": "Multi-functional gloves for planting and digging without tools.",
-    "price": 15.99,
-    "stock": 54
+    "name": "Micrófono de Condensador USB",
+    "description": "Micrófono con patrón cardioide para podcast, streaming y grabación de voz.",
+    "price": 39000,
+    "stock": 54,
+    "updatedAt": "2026-06-23T21:27:35.222Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3eeb",
     "id": 17,
-    "name": "Suction Cup Hooks",
-    "description": "Reusable suction cup hooks for hanging items.",
-    "price": 9.99,
-    "stock": 96
+    "name": "Organizador de Cables Magnético",
+    "description": "Base de silicona con clips magnéticos para organizar cables en el escritorio.",
+    "price": 8000,
+    "stock": 96,
+    "updatedAt": "2026-06-23T21:27:35.354Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3eec",
     "id": 18,
-    "name": "Honey Sesame Cashews",
-    "description": "Roasted cashews coated in honey and sesame seeds for a sweet treat.",
-    "price": 4.49,
-    "stock": 59
+    "name": "Disipador de CPU por Aire RGB",
+    "description": "Cooler de CPU con ventilador de 120mm RGB y base de cobre de disipación.",
+    "price": 22000,
+    "stock": 59,
+    "updatedAt": "2026-06-23T21:27:35.483Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3eed",
     "id": 19,
-    "name": "Children's Gardening Set",
-    "description": "Fun gardening tools designed specifically for kids.",
-    "price": 19.99,
-    "stock": 7
+    "name": "Kit de Raspberry Pi 4 Model B",
+    "description": "Placa de desarrollo con 4GB RAM, carcasa protectora, ventilador y disipadores.",
+    "price": 79000,
+    "stock": 7,
+    "updatedAt": "2026-06-23T21:27:35.614Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3eee",
     "id": 20,
-    "name": "Kids' Art Easel",
-    "description": "Double-sided art easel for painting and drawing.",
-    "price": 58.99,
-    "stock": 88
+    "name": "Tableta Digitalizadora de Dibujo",
+    "description": "Tableta para diseño gráfico con lápiz óptico sin batería de 8192 niveles.",
+    "price": 49000,
+    "stock": 88,
+    "updatedAt": "2026-06-23T21:27:35.754Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3eef",
     "id": 21,
-    "name": "Electric Bike",
-    "description": "Eco-friendly electric bike with a 30-mile range.",
-    "price": 899.99,
-    "stock": 99
+    "name": "Bicicleta Eléctrica",
+    "description": "Bicicleta eléctrica ecológica con una autonomía de 48 kilómetros.",
+    "price": 810000,
+    "stock": 99,
+    "updatedAt": "2026-06-23T21:27:35.884Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef0",
     "id": 22,
-    "name": "Travel Organizer",
-    "description": "Compact travel organizer for accessories and toiletries.",
-    "price": 22.99,
-    "stock": 69
+    "name": "Bolso Organizador de Tech y Cables",
+    "description": "Estuche impermeable con múltiples compartimentos acolchados para accesorios tech.",
+    "price": 16000,
+    "stock": 69,
+    "updatedAt": "2026-06-23T21:27:36.016Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef1",
     "id": 23,
-    "name": "Basil Pesto Pasta",
-    "description": "Pasta tossed with fresh basil pesto, simple and delicious.",
-    "price": 6.49,
-    "stock": 44
+    "name": "Audífonos In-Ear True Wireless",
+    "description": "Audífonos inalámbricos estéreo con control táctil y estuche de carga USB-C.",
+    "price": 25000,
+    "stock": 44,
+    "updatedAt": "2026-06-23T21:27:36.146Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef2",
     "id": 24,
-    "name": "Inspirational Wall Art",
-    "description": "Quote wall art to inspire and motivate.",
-    "price": 24.99,
-    "stock": 78
+    "name": "Lámpara de Escritorio Inteligente Wi-Fi",
+    "description": "Lámpara LED con control de tono y brillo desde app móvil o asistentes de voz.",
+    "price": 28000,
+    "stock": 78,
+    "updatedAt": "2026-06-23T21:27:36.279Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef3",
     "id": 25,
-    "name": "Berries Medley",
-    "description": "A mix of fresh raspberries, blueberries, and blackberries.",
-    "price": 6.99,
-    "stock": 18
+    "name": "Tira de Luces LED Inteligentes RGBIC",
+    "description": "Luces LED direccionables de 5 metros controlables por Wi-Fi y app móvil.",
+    "price": 19000,
+    "stock": 18,
+    "updatedAt": "2026-06-23T21:27:36.408Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef4",
     "id": 26,
-    "name": "Weighted Blanket",
-    "description": "Therapeutic weighted blanket for better sleep.",
-    "price": 79.99,
-    "stock": 50
+    "name": "Almohadilla de Escritorio XXL Antideslizante",
+    "description": "Mousepad extra grande de 90x40cm con superficie de microfibra y base de goma.",
+    "price": 14000,
+    "stock": 50,
+    "updatedAt": "2026-06-23T21:27:36.539Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef5",
     "id": 27,
-    "name": "Chickpea Flour",
-    "description": "Gluten-free flour made from ground chickpeas, great for cooking.",
-    "price": 3.29,
-    "stock": 23
+    "name": "Pasta Térmica de Alto Rendimiento",
+    "description": "Compuesto térmico premium para procesadores de CPU y GPU con alta conductividad.",
+    "price": 6000,
+    "stock": 23,
+    "updatedAt": "2026-06-23T21:27:36.670Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef6",
     "id": 28,
-    "name": "Bamboo Cutting Board",
-    "description": "Eco-friendly bamboo cutting board for food prep.",
-    "price": 22,
-    "stock": 70
+    "name": "Soporte de Audífonos RGB con USB",
+    "description": "Soporte vertical para audífonos diadema con iluminación RGB y 2 puertos USB.",
+    "price": 18000,
+    "stock": 70,
+    "updatedAt": "2026-06-23T21:27:36.801Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef7",
     "id": 29,
-    "name": "Basmati Rice",
-    "description": "Aromatic long-grain basmati rice, perfect for curries.",
-    "price": 5.79,
-    "stock": 90
+    "name": "Ventilador de Gabinete PC 120mm RGB",
+    "description": "Fan silencioso con rodamientos hidráulicos y sincronización de colores RGB.",
+    "price": 12000,
+    "stock": 90,
+    "updatedAt": "2026-06-23T21:27:36.932Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef8",
     "id": 30,
-    "name": "Tailgating Set",
-    "description": "Complete set for grilling and tailgating fun.",
-    "price": 89.99,
-    "stock": 59
+    "name": "Mini Proyector Portátil HD",
+    "description": "Proyector LED compacto con batería integrada, HDMI y reproducción multimedia.",
+    "price": 89000,
+    "stock": 59,
+    "updatedAt": "2026-06-23T21:27:37.063Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3ef9",
     "id": 31,
-    "name": "Stainless Steel Straws",
-    "description": "Set of reusable stainless steel straws for drinks.",
-    "price": 12.99,
-    "stock": 68
+    "name": "Adaptador Bluetooth 5.0 USB",
+    "description": "Nano dongle USB para conectar dispositivos de audio y mandos de forma inalámbrica.",
+    "price": 7000,
+    "stock": 68,
+    "updatedAt": "2026-06-23T21:27:37.194Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3efa",
     "id": 32,
-    "name": "Warm Knit Beanie",
-    "description": "Stay warm with this stylish knit beanie in various colors.",
-    "price": 19.99,
-    "stock": 26
+    "name": "Limpiador de Teclado de Gel de Silicona",
+    "description": "Gel limpiador moldeable para remover suciedad de rincones difíciles y teclados.",
+    "price": 4000,
+    "stock": 26,
+    "updatedAt": "2026-06-23T21:27:37.325Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3efb",
     "id": 33,
-    "name": "Car Diagnostic Scanner",
-    "description": "Tool to check car engine codes and performance issues.",
-    "price": 49.99,
-    "stock": 11
+    "name": "Escáner de Diagnóstico Automotriz",
+    "description": "Herramienta para verificar códigos de motor de autos y problemas de rendimiento.",
+    "price": 45000,
+    "stock": 11,
+    "updatedAt": "2026-06-23T21:27:37.455Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3efc",
     "id": 34,
-    "name": "Sliced Avocado",
-    "description": "Ready-to-eat avocado slices, perfect for tacos.",
-    "price": 2.79,
-    "stock": 87
+    "name": "Adaptador HDMI a VGA con Audio",
+    "description": "Adaptador para conectar dispositivos HDMI a pantallas o proyectores VGA clásicos.",
+    "price": 6000,
+    "stock": 87,
+    "updatedAt": "2026-06-23T21:27:37.586Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3efd",
     "id": 35,
-    "name": "Robot Vacuum Cleaner",
-    "description": "Smart robotic vacuum for automatic cleaning.",
-    "price": 299.99,
-    "stock": 82
+    "name": "Aspiradora Robot Inteligente",
+    "description": "Aspiradora robot inteligente para limpieza automática.",
+    "price": 270000,
+    "stock": 82,
+    "updatedAt": "2026-06-23T21:27:37.717Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3efe",
     "id": 36,
-    "name": "Strawberry Banana Smoothie Pack",
-    "description": "Frozen smoothie pack with strawberries and bananas.",
-    "price": 4.99,
-    "stock": 3
+    "name": "Termómetro Higrómetro Digital Inteligente",
+    "description": "Sensor digital de temperatura y humedad ambiental con conexión inalámbrica.",
+    "price": 12000,
+    "stock": 3,
+    "updatedAt": "2026-06-23T21:27:37.847Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3eff",
     "id": 37,
-    "name": "Kid's Fruit Snacks",
-    "description": "Assorted fruit-flavored gummy snacks that kids love.",
-    "price": 2.49,
-    "stock": 44
+    "name": "Kit de Limpieza de Pantallas 3 en 1",
+    "description": "Solución limpiadora antiestática para pantallas con paño de microfibra.",
+    "price": 5000,
+    "stock": 44,
+    "updatedAt": "2026-06-23T21:27:37.977Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f00",
     "id": 38,
-    "name": "Savory Oats",
-    "description": "Instant oats with a savory twist, such as herbs and spices.",
-    "price": 2.49,
-    "stock": 51
+    "name": "Soporte de Celular para Rejilla Auto",
+    "description": "Soporte magnético universal para rejilla de ventilación del vehículo.",
+    "price": 7000,
+    "stock": 51,
+    "updatedAt": "2026-06-23T21:27:38.109Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f01",
     "id": 39,
-    "name": "Curried Lentil Salad",
-    "description": "A hearty salad with lentils, veggies, and curry dressing.",
-    "price": 4.29,
-    "stock": 48
+    "name": "Lector de Tarjetas SD/MicroSD USB 3.0",
+    "description": "Adaptador para lectura rápida de tarjetas SD y MicroSD directo a puerto USB.",
+    "price": 9000,
+    "stock": 48,
+    "updatedAt": "2026-06-23T21:27:38.240Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f02",
     "id": 40,
-    "name": "Balsamic Glaze",
-    "description": "Sweet and tangy balsamic reduction for drizzling.",
-    "price": 4.79,
-    "stock": 52
+    "name": "Interruptor Inteligente Wi-Fi",
+    "description": "Módulo inteligente para domotizar luces o enchufes directo en la pared.",
+    "price": 11000,
+    "stock": 52,
+    "updatedAt": "2026-06-23T21:27:38.371Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f03",
     "id": 41,
-    "name": "Coloring Books for Adults",
-    "description": "Intricate designs for adults to relax and unwind.",
-    "price": 14.99,
-    "stock": 20
+    "name": "Luz LED de Clip para E-Reader/Libros",
+    "description": "Linterna de lectura portátil recargable con pinza para libros y pantallas.",
+    "price": 8000,
+    "stock": 20,
+    "updatedAt": "2026-06-23T21:27:38.502Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f04",
     "id": 42,
-    "name": "Energy Protein Bars",
-    "description": "Nutritious bars packed with protein for energy",
-    "price": 2.29,
-    "stock": 49
+    "name": "Pilas Recargables AA NiMH Pack 4x",
+    "description": "Baterías precargadas recargables de larga duración para controles y juguetes.",
+    "price": 12000,
+    "stock": 49,
+    "updatedAt": "2026-06-23T21:27:38.633Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f05",
     "id": 43,
-    "name": "Honey",
-    "description": "Pure and natural honey, great for sweetening.",
-    "price": 5.49,
-    "stock": 10
+    "name": "Cargador para Auto USB Carga Rápida",
+    "description": "Adaptador de mechero de auto con carga rápida QuickCharge 3.0.",
+    "price": 9000,
+    "stock": 10,
+    "updatedAt": "2026-06-23T21:27:38.763Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f06",
     "id": 44,
-    "name": "Safety Pin Dispenser",
-    "description": "Handy dispenser for quick access to safety pins.",
-    "price": 5.99,
-    "stock": 29
+    "name": "Organizador de Cables Velcro (3 metros)",
+    "description": "Cinta de velcro ajustable y recortable para el orden de tendido eléctrico.",
+    "price": 4000,
+    "stock": 29,
+    "updatedAt": "2026-06-23T21:27:38.894Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f07",
     "id": 45,
-    "name": "Stuffed Peppers with Quinoa",
-    "description": "Bell peppers filled with quinoa and vegetables.",
-    "price": 7.99,
-    "stock": 76
+    "name": "Gabinete Externo SSD M.2 NVMe USB-C",
+    "description": "Carcasa de aluminio para transformar SSD M.2 internos en discos rápidos USB.",
+    "price": 22000,
+    "stock": 76,
+    "updatedAt": "2026-06-23T21:27:39.025Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f08",
     "id": 46,
-    "name": "Cacao Nibs",
-    "description": "Crunchy cacao nibs, great for adding to smoothies or baking.",
-    "price": 6.49,
-    "stock": 1
+    "name": "Soporte de Webcam para Monitor",
+    "description": "Soporte de webcam articulado para colocar encima de monitores o repisas.",
+    "price": 7000,
+    "stock": 1,
+    "updatedAt": "2026-06-23T21:27:39.156Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f09",
     "id": 47,
-    "name": "Sketchbook",
-    "description": "High-quality sketchbook for artists.",
-    "price": 14.99,
-    "stock": 37
+    "name": "Cuaderno Digital Inteligente Reutilizable",
+    "description": "Libreta reutilizable con hojas que se digitalizan a la nube mediante app móvil.",
+    "price": 28000,
+    "stock": 37,
+    "updatedAt": "2026-06-23T21:27:39.287Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f0a",
     "id": 48,
-    "name": "Wireless HDMI Transmitter",
-    "description": "Stream HD video wirelessly to your TV.",
-    "price": 79.99,
-    "stock": 89
+    "name": "Transmisor HDMI Inalámbrico",
+    "description": "Transmite video HD de forma inalámbrica a tu televisor.",
+    "price": 72000,
+    "stock": 89,
+    "updatedAt": "2026-06-23T21:27:39.419Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f0b",
     "id": 49,
-    "name": "Savory Oatmeal Cups",
-    "description": "Savory oatmeal ready to eat, great for breakfast or a snack.",
-    "price": 1.99,
-    "stock": 63
+    "name": "Extractor de Switches y Teclas 2 en 1",
+    "description": "Herramienta metálica para remoción segura de teclas en teclados mecánicos.",
+    "price": 5000,
+    "stock": 63,
+    "updatedAt": "2026-06-23T21:27:39.550Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f0c",
     "id": 50,
-    "name": "Camping Lantern",
-    "description": "Rechargeable LED camping lantern for outdoor use.",
-    "price": 34.99,
-    "stock": 27
+    "name": "Luz LED de Emergencia Recargable USB",
+    "description": "Foco de luz de emergencia LED con batería recargable de alta duración.",
+    "price": 12000,
+    "stock": 27,
+    "updatedAt": "2026-06-23T21:27:39.681Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f0d",
     "id": 51,
-    "name": "Garlic Butter Sauce",
-    "description": "A rich sauce perfect for pasta or drizzling over vegetables.",
-    "price": 3.59,
-    "stock": 53
+    "name": "Adaptador USB 3.0 a Gigabit Ethernet",
+    "description": "Adaptador para conectar cables de red RJ45 a laptops sin puerto Ethernet.",
+    "price": 14000,
+    "stock": 53,
+    "updatedAt": "2026-06-23T21:27:39.812Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f0e",
     "id": 52,
-    "name": "Self-Cleaning Water Bottle",
-    "description": "Water bottle with built-in UV-C light for self-cleaning.",
-    "price": 49.99,
-    "stock": 72
+    "name": "Botella de Agua Autolimpiable con UV-C",
+    "description": "Botella de agua con luz UV-C integrada para autolimpieza.",
+    "price": 45000,
+    "stock": 72,
+    "updatedAt": "2026-06-23T21:27:39.944Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f0f",
     "id": 53,
-    "name": "Cranberry Almond Biscotti",
-    "description": "Crispy and delicious biscotti flavored with cranberry and almond.",
-    "price": 4.19,
-    "stock": 68
+    "name": "Mouse Gamer Óptico Alámbrico",
+    "description": "Mouse ergonómico de 6 botones personalizables y sensor óptico de 7200 DPI.",
+    "price": 12000,
+    "stock": 68,
+    "updatedAt": "2026-06-23T21:27:40.074Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f10",
     "id": 54,
-    "name": "Gardening Fairy Figurines",
-    "description": "Cute fairy figurines to decorate your garden or potted plants.",
-    "price": 14.99,
-    "stock": 87
+    "name": "Kit de Herramientas de Precisión 120 en 1",
+    "description": "Set completo de destornilladores y pinzas para desarme de celulares y consolas.",
+    "price": 24000,
+    "stock": 87,
+    "updatedAt": "2026-06-23T21:27:40.204Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f11",
     "id": 55,
-    "name": "Reversible Swimming Pool Lounger",
-    "description": "Floating lounger for relaxation in swimming pools or lakes.",
-    "price": 34.99,
-    "stock": 41
+    "name": "Enfriador de Laptop con 5 Ventiladores",
+    "description": "Base de refrigeración con altura regulable y luces LED para laptops gamer.",
+    "price": 19000,
+    "stock": 41,
+    "updatedAt": "2026-06-23T21:27:40.333Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f12",
     "id": 56,
-    "name": "Fridge Magnet Set",
-    "description": "Fun fridge magnets to decorate your kitchen.",
-    "price": 15.99,
-    "stock": 97
+    "name": "Cinta Adhesiva Térmica de Doble Cara",
+    "description": "Cinta térmica de alta resistencia para fijar disipadores en componentes de PC.",
+    "price": 5000,
+    "stock": 97,
+    "updatedAt": "2026-06-23T21:27:40.463Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f13",
     "id": 57,
-    "name": "Cotton Basic Tank",
-    "description": "Essential cotton tank top, perfect for layering.",
-    "price": 14.99,
-    "stock": 90
+    "name": "Soporte de Brazo para Micrófono",
+    "description": "Brazo articulado metálico con abrazadera para escritorio para streaming.",
+    "price": 16000,
+    "stock": 90,
+    "updatedAt": "2026-06-23T21:27:40.594Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f14",
     "id": 58,
-    "name": "Portable Blender",
-    "description": "Battery-operated blender for smoothies on the go.",
-    "price": 30,
-    "stock": 73
+    "name": "Licuadora Inteligente Portátil USB-C",
+    "description": "Licuadora portátil con batería recargable y motor potente para viajes.",
+    "price": 29000,
+    "stock": 73,
+    "updatedAt": "2026-06-23T21:22:21.473Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f15",
     "id": 59,
-    "name": "Frozen Pizza",
-    "description": "Delicious frozen pizza with a variety of toppings.",
-    "price": 7.99,
-    "stock": 15
+    "name": "Disco SSD Interno 500GB SATA 3",
+    "description": "Unidad de estado sólido para mejorar el rendimiento de almacenamiento de PC.",
+    "price": 35000,
+    "stock": 15,
+    "updatedAt": "2026-06-23T21:27:40.725Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f16",
     "id": 60,
-    "name": "Balsamic Vinegar",
-    "description": "Rich and tangy balsamic vinegar, perfect for dressings.",
-    "price": 4.99,
-    "stock": 42
+    "name": "Control Remoto Presentador Inalámbrico",
+    "description": "Puntero láser rojo para diapositivas con receptor inalámbrico USB.",
+    "price": 12000,
+    "stock": 42,
+    "updatedAt": "2026-06-23T21:27:40.865Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f17",
     "id": 61,
-    "name": "Mini Indoor Herb Garden Kit",
-    "description": "All-in-one kit for growing herbs in your kitchen.",
-    "price": 24.99,
-    "stock": 25
+    "name": "Sensor de Humedad de Suelo Inteligente",
+    "description": "Sensor inteligente con alerta en la app móvil sobre niveles de sequedad.",
+    "price": 14000,
+    "stock": 25,
+    "updatedAt": "2026-06-23T21:27:40.996Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f18",
     "id": 62,
-    "name": "Sweet Potatoes",
-    "description": "Sweet and nutritious potatoes, great for roasting.",
-    "price": 0.89,
-    "stock": 2
+    "name": "Cargador USB-C de Repuesto para Laptop 65W",
+    "description": "Cargador universal USB-C Power Delivery para laptops modernas y MacBooks.",
+    "price": 24000,
+    "stock": 2,
+    "updatedAt": "2026-06-23T21:27:41.127Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f19",
     "id": 63,
-    "name": "Reclining Camping Chair",
-    "description": "Foldable reclining camping chair with cup holder.",
-    "price": 49.99,
-    "stock": 90
+    "name": "Silla Gamer Ergonómica Pro",
+    "description": "Silla gamer reclinable con reposapiés, almohadones lumbar y cervical.",
+    "price": 149000,
+    "stock": 90,
+    "updatedAt": "2026-06-23T21:27:41.258Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f1a",
     "id": 64,
-    "name": "Set of Silicone Baking Molds",
-    "description": "Flexible molds perfect for baking cakes and pastries.",
-    "price": 15.99,
-    "stock": 29
+    "name": "Base Enfriadora de Consola PS5/Xbox",
+    "description": "Estación de enfriamiento vertical con ventilador y docks de carga de mandos.",
+    "price": 28000,
+    "stock": 29,
+    "updatedAt": "2026-06-23T21:27:41.387Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f1b",
     "id": 65,
-    "name": "Vanilla Pudding Mix",
-    "description": "Instant mix for creamy vanilla pudding.",
-    "price": 1.29,
-    "stock": 23
+    "name": "Enchufe Inteligente Smart Plug Wi-Fi",
+    "description": "Adaptador de enchufe programable compatible con Google Home y Alexa.",
+    "price": 9000,
+    "stock": 23,
+    "updatedAt": "2026-06-23T21:27:41.518Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f1c",
     "id": 66,
-    "name": "Plant Pot Drip Trays",
-    "description": "Prevent water damage with drip trays for potted plants.",
-    "price": 9.99,
-    "stock": 52
+    "name": "Organizador de Cables bajo Escritorio",
+    "description": "Bandeja metálica de rejilla pasacables para montar bajo el escritorio.",
+    "price": 12000,
+    "stock": 52,
+    "updatedAt": "2026-06-23T21:27:41.650Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f1d",
     "id": 67,
-    "name": "Fresh Strawberries",
-    "description": "Sweet and juicy strawberries, perfect for desserts.",
-    "price": 3.99,
-    "stock": 58
+    "name": "Tarjeta Capturadora de Video HDMI a USB",
+    "description": "Capturadora compacta para grabación y streaming de consolas de juegos.",
+    "price": 18000,
+    "stock": 58,
+    "updatedAt": "2026-06-23T21:27:41.780Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f1e",
     "id": 68,
-    "name": "Stainless Steel Water Bottle",
-    "description": "Durable and insulated water bottle to keep beverages cold.",
-    "price": 25.99,
-    "stock": 13
+    "name": "Taza Térmica Inteligente con Control de Temp",
+    "description": "Taza inteligente con pantalla táctil e indicador de temperatura exacta.",
+    "price": 39000,
+    "stock": 13,
+    "updatedAt": "2026-06-23T21:27:41.911Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f1f",
     "id": 69,
-    "name": "Pet Reflective Vest",
-    "description": "Safety vest for pets during nighttime walks.",
-    "price": 18.99,
-    "stock": 4
+    "name": "Collar de Perro con Localizador GPS Inteligente",
+    "description": "Collar para mascotas con ranura SIM para geolocalización en tiempo real.",
+    "price": 32000,
+    "stock": 4,
+    "updatedAt": "2026-06-23T21:27:42.043Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f20",
     "id": 70,
-    "name": "Ergonomic Mouse Pad with Wrist Support",
-    "description": "Comfortable mouse pad designed to reduce wrist strain.",
-    "price": 14.99,
-    "stock": 90
+    "name": "Mouse Pad Ergonómico con Soporte para Muñeca",
+    "description": "Mouse pad ergonómico con soporte para muñeca.",
+    "price": 13000,
+    "stock": 90,
+    "updatedAt": "2026-06-23T21:27:42.174Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f21",
     "id": 71,
-    "name": "Skincare Fridge",
-    "description": "Small fridge designed to keep skincare products cool and fresh.",
-    "price": 39.99,
-    "stock": 71
+    "name": "Mini Refrigerador USB para Bebidas de Escritorio",
+    "description": "Minibar de escritorio con alimentación USB con espacio para dos latas.",
+    "price": 28000,
+    "stock": 71,
+    "updatedAt": "2026-06-23T21:27:42.304Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f22",
     "id": 72,
-    "name": "Garlic Herb Marinade",
-    "description": "A savory marinade for meats, perfect for grilling.",
-    "price": 3.29,
-    "stock": 22
+    "name": "Limpiador de Aire Comprimido Soplador",
+    "description": "Soplador eléctrico recargable de alta velocidad para limpieza de PC.",
+    "price": 24000,
+    "stock": 22,
+    "updatedAt": "2026-06-23T21:27:42.435Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f23",
     "id": 73,
-    "name": "Casual Long Cardigan",
-    "description": "A cozy long cardigan designed for layering in any season.",
-    "price": 45.99,
-    "stock": 44
+    "name": "Lámpara LED Barra de Pantalla Monitor",
+    "description": "Barra de luz asimétrica para monitor con conexión USB para iluminar teclado.",
+    "price": 32000,
+    "stock": 44,
+    "updatedAt": "2026-06-23T21:27:42.566Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f24",
     "id": 74,
-    "name": "Kids' Art Supplies Kit",
-    "description": "Complete kit with crayons, markers, and paper for young artists.",
-    "price": 29.99,
-    "stock": 49
+    "name": "Lápiz 3D de Impresión con Filamento",
+    "description": "Lápiz para dibujar estructuras tridimensionales con filamentos PLA.",
+    "price": 29000,
+    "stock": 49,
+    "updatedAt": "2026-06-23T21:27:42.696Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f25",
     "id": 75,
-    "name": "Vegetable Medley",
-    "description": "Mixed fresh vegetables for stir-frying or roasting.",
-    "price": 2.99,
-    "stock": 58
+    "name": "Repetidor Wi-Fi Dual Band 1200Mbps",
+    "description": "Extensor de rango Wi-Fi inalámbrico con antenas externas y puerto LAN.",
+    "price": 16000,
+    "stock": 58,
+    "updatedAt": "2026-06-23T21:27:42.826Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f26",
     "id": 76,
-    "name": "Mini Electric Kettle",
-    "description": "Quick boiling kettle for small kitchens and dorms.",
-    "price": 29.99,
-    "stock": 8
+    "name": "Hervidor Eléctrico Compacto",
+    "description": "Hervidor eléctrico de ebullición rápida para cocinas pequeñas y dormitorios.",
+    "price": 27000,
+    "stock": 8,
+    "updatedAt": "2026-06-23T21:27:42.956Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f27",
     "id": 77,
-    "name": "Luxury Rolling Makeup Case",
-    "description": "Stylish and spacious case for makeup and beauty products.",
-    "price": 99.99,
-    "stock": 30
+    "name": "Mochila Mochilero Tech Impermeable",
+    "description": "Mochila ergonómica impermeable con compartimentos acolchados y puerto USB.",
+    "price": 42000,
+    "stock": 30,
+    "updatedAt": "2026-06-23T21:27:43.087Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f28",
     "id": 78,
-    "name": "Floral Wrap Top",
-    "description": "A feminine wrap top with a beautiful floral print.",
-    "price": 49.99,
-    "stock": 82
+    "name": "Gafas de Realidad Virtual para Smartphone",
+    "description": "Lentes de realidad virtual ajustables compatibles con celulares de 5\" a 6.5\".",
+    "price": 19000,
+    "stock": 82,
+    "updatedAt": "2026-06-23T21:27:43.217Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f29",
     "id": 79,
-    "name": "Zesty Garlic Marinade",
-    "description": "A tangy marinade for meats and veggies, packed with garlic flavor.",
-    "price": 4.49,
-    "stock": 54
+    "name": "Estuche Antiestático Organizador de Tarjetas",
+    "description": "Estuche sellado para guardar de forma segura tarjetas SD, MicroSD y nanoSIM.",
+    "price": 8000,
+    "stock": 54,
+    "updatedAt": "2026-06-23T21:27:43.348Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f2a",
     "id": 80,
-    "name": "Multi-Function Smartphone Holder",
-    "description": "Versatile holder that can be used on desks, cars, and more.",
-    "price": 12.99,
-    "stock": 71
+    "name": "Soporte Multifuncional para Celular",
+    "description": "Soporte multifuncional para celular.",
+    "price": 12000,
+    "stock": 71,
+    "updatedAt": "2026-06-23T21:27:43.478Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f2b",
     "id": 81,
-    "name": "Teriyaki Chicken Wings",
-    "description": "Flavorful chicken wings marinated in a sweet teriyaki glaze.",
-    "price": 10.99,
-    "stock": 32
+    "name": "Cable de Red RJ45 Cat 6 (10 metros)",
+    "description": "Cable Ethernet categoría 6 de alta velocidad y baja interferencia.",
+    "price": 9000,
+    "stock": 32,
+    "updatedAt": "2026-06-23T21:27:43.609Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f2c",
     "id": 82,
-    "name": "Oven-Baked Sweet Potato Fries",
-    "description": "Crispy sweet potato fries, perfectly seasoned and baked to perfection.",
-    "price": 3.99,
-    "stock": 28
+    "name": "Adaptador USB 3.0 Hub de 4 Puertos",
+    "description": "Concentrador USB portátil de alta velocidad con 4 puertos para periféricos.",
+    "price": 7000,
+    "stock": 28,
+    "updatedAt": "2026-06-23T21:27:43.740Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f2d",
     "id": 83,
-    "name": "Dog Training Collar",
-    "description": "Rechargeable training collar for effective behavior training.",
-    "price": 39.99,
-    "stock": 73
+    "name": "Collar de Entrenamiento Recargable para Perros",
+    "description": "Collar de adiestramiento recargable para un entrenamiento eficaz.",
+    "price": 36000,
+    "stock": 73,
+    "updatedAt": "2026-06-23T21:27:43.871Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f2e",
     "id": 84,
-    "name": "Ergonomic Mouse Pad with Wrist Support",
-    "description": "Comfortable mouse pad designed to reduce wrist strain.",
-    "price": 14.99,
-    "stock": 81
+    "name": "Mouse Pad Ergonómico con Soporte para Muñeca",
+    "description": "Mouse pad ergonómico con soporte para muñeca.",
+    "price": 13000,
+    "stock": 81,
+    "updatedAt": "2026-06-23T21:27:44.002Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f2f",
     "id": 85,
-    "name": "Chickpea Salad Deluxe",
-    "description": "Chickpeas mixed with fresh vegetables and herbs, a nutritious snack or salad.",
-    "price": 4.29,
-    "stock": 2
+    "name": "Adaptador Divisor Jack 3.5mm Mic y Aud",
+    "description": "Cable divisor Y para conectar audífonos antiguos con dos conectores.",
+    "price": 3000,
+    "stock": 2,
+    "updatedAt": "2026-06-23T21:27:44.133Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f30",
     "id": 86,
-    "name": "Portable Bluetooth Speaker",
-    "description": "Compact Bluetooth speaker with rich sound quality.",
-    "price": 49.99,
-    "stock": 100
+    "name": "Parlante Bluetooth Portátil",
+    "description": "Parlante Bluetooth portátil con sonido nítido.",
+    "price": 45000,
+    "stock": 100,
+    "updatedAt": "2026-06-23T21:27:44.275Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f31",
     "id": 87,
-    "name": "Digital Camera",
-    "description": "Compact digital camera with 20MP resolution.",
-    "price": 299.99,
-    "stock": 48
+    "name": "Cámara Digital Compacta 20MP",
+    "description": "Cámara digital compacta de 20MP de resolución.",
+    "price": 270000,
+    "stock": 48,
+    "updatedAt": "2026-06-23T21:27:44.406Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f32",
     "id": 88,
-    "name": "Sriracha Sauce",
-    "description": "Spicy chili sauce for an extra kick in your meals.",
-    "price": 3.19,
-    "stock": 68
+    "name": "Cargador Inalámbrico Magnético MagSafe",
+    "description": "Cargador inalámbrico Qi compatible con carga rápida magnética de iPhone.",
+    "price": 19000,
+    "stock": 68,
+    "updatedAt": "2026-06-23T21:27:44.535Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f33",
     "id": 89,
-    "name": "Interchangeable Watch Bands",
-    "description": "Set of stylish watch bands to customize your look.",
-    "price": 24.99,
-    "stock": 54
+    "name": "Correas de Reloj Intercambiables",
+    "description": "Juego de elegantes correas de reloj para personalizar tu estilo.",
+    "price": 22000,
+    "stock": 54,
+    "updatedAt": "2026-06-23T21:27:44.666Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f34",
     "id": 90,
-    "name": "Children's Educational Puzzle",
-    "description": "Fun and educational puzzle set for kids.",
-    "price": 19.99,
-    "stock": 95
+    "name": "Kit Educativo Arduino Uno R3",
+    "description": "Placa de desarrollo con múltiples sensores y leds para aprendizaje de electrónica.",
+    "price": 29000,
+    "stock": 95,
+    "updatedAt": "2026-06-23T21:27:44.797Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f35",
     "id": 91,
-    "name": "Infrared Thermometer",
-    "description": "Non-contact thermometer for checking temperatures instantly.",
-    "price": 39.99,
-    "stock": 60
+    "name": "Termómetro Infrarrojo Sin Contacto",
+    "description": "Termómetro sin contacto para comprobar temperaturas al instante.",
+    "price": 36000,
+    "stock": 60,
+    "updatedAt": "2026-06-23T21:27:44.929Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f36",
     "id": 92,
-    "name": "Stuffed Grape Leaves",
-    "description": "Grape leaves stuffed with rice and herbs, ready to eat.",
-    "price": 5.79,
-    "stock": 18
+    "name": "Kit Limpiador de Audífonos AirPods",
+    "description": "Lápiz limpiador con punta metálica y cepillo para rejillas de audífonos.",
+    "price": 6000,
+    "stock": 18,
+    "updatedAt": "2026-06-23T21:27:45.059Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f37",
     "id": 93,
-    "name": "Organic Quinoa Chips",
-    "description": "Light and crispy chips made from quinoa, ideal for dipping.",
-    "price": 3.99,
-    "stock": 40
+    "name": "Base Cargadora de Controles Nintendo Switch",
+    "description": "Soporte de carga rápida para hasta 4 Joy-Con de manera simultánea.",
+    "price": 12000,
+    "stock": 40,
+    "updatedAt": "2026-06-23T21:27:45.189Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f38",
     "id": 94,
-    "name": "Cabbage Slaw Mix",
-    "description": "Fresh cabbage and carrot slaw mix for salads.",
-    "price": 2.29,
-    "stock": 9
+    "name": "Organizador de Cables Espiral (2 metros)",
+    "description": "Manga organizadora flexible para agrupar múltiples cables de TV o PC.",
+    "price": 5000,
+    "stock": 9,
+    "updatedAt": "2026-06-23T21:27:45.319Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f39",
     "id": 95,
-    "name": "Outdoor Adventure Kit",
-    "description": "Complete outdoor kit for camping and hiking.",
-    "price": 89.99,
-    "stock": 36
+    "name": "Smartwatch Multideporte GPS Adventure",
+    "description": "Reloj de alta resistencia militar con GPS, mapas sin conexión y brújula.",
+    "price": 119000,
+    "stock": 36,
+    "updatedAt": "2026-06-23T21:27:45.450Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f3a",
     "id": 96,
-    "name": "Interchangeable Watch Bands",
-    "description": "Set of stylish watch bands to customize your look.",
-    "price": 24.99,
-    "stock": 34
+    "name": "Correas de Reloj Intercambiables",
+    "description": "Juego de elegantes correas de reloj para personalizar tu estilo.",
+    "price": 22000,
+    "stock": 34,
+    "updatedAt": "2026-06-23T21:27:45.582Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f3b",
     "id": 97,
-    "name": "Adjustable Stand for Tablets and Smartphones",
-    "description": "Multi-angle stand for easy viewing of devices.",
-    "price": 19.99,
-    "stock": 39
+    "name": "Soporte Ajustable para Tablet y Celular",
+    "description": "Soporte ajustable para tablet y celular.",
+    "price": 18000,
+    "stock": 39,
+    "updatedAt": "2026-06-23T21:27:45.713Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f3c",
     "id": 98,
-    "name": "Butternut Squash Ravioli",
-    "description": "Delicate ravioli filled with roasted butternut squash and spices, perfect with a sage butter sauce.",
-    "price": 6.29,
-    "stock": 6
+    "name": "Lente Macro y Gran Angular para Celular",
+    "description": "Lentes intercambiables clip-on para mejorar la cámara fotográfica de celular.",
+    "price": 8000,
+    "stock": 6,
+    "updatedAt": "2026-06-23T21:27:45.844Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f3d",
     "id": 99,
-    "name": "Bamboo Toothbrush",
-    "description": "Eco-friendly bamboo toothbrush for sustainable living.",
-    "price": 5.99,
-    "stock": 78
+    "name": "Cepillo de Dientes Eléctrico Sónico",
+    "description": "Cepillo dental recargable por USB de alta frecuencia y 5 modos de uso.",
+    "price": 24000,
+    "stock": 78,
+    "updatedAt": "2026-06-23T21:27:45.976Z"
   },
   {
     "_id": "6a3af5f21d4739f0c6ef3f3e",
     "id": 100,
-    "name": "Raspberry Lemonade Mix",
-    "description": "A refreshing drink mix that combines sweet raspberries and tart lemons, perfect for summer.",
-    "price": 3.99,
-    "stock": 3
+    "name": "Mouse Pad Gamer RGB Extendido",
+    "description": "Alfombrilla gigante con base antideslizante y bordes iluminados con luz de color.",
+    "price": 15000,
+    "stock": 3,
+    "updatedAt": "2026-06-23T21:27:46.107Z"
   }
 ]
